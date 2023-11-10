@@ -1,0 +1,5 @@
+a-¿Como actualizo mi repositorio, al estado que esté el repo que hice FORK?
+En mi archivo local "pull + nombre del repositorio original".
+
+b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
+Sí.
