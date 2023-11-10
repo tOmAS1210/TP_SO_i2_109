@@ -12,3 +12,50 @@ si
 
 d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar el fork?
 segun vi con mis compañeros, no se perdio ningun dato
+
+e- realizar un listado, paso a paso ,de los comando necesarios para resolver este TP por
+orden de ejecución de los mismos junto con los apellidos y nombre de los alumnos
+
+GAMMA
+git clone https://github.com/lucafamozo/TP_SO_i2_109
+echo "Luca Valentin Famozo^ 192.168.1.39 ^09:8 AM" > fork.txt
+git add .
+git commit -m ""
+git push origin main
+#desde git se realiza el pull request para que BETA acepte los cambios 
+
+ALFA
+git clone https://github.com/uthurburudiego/TP_SO_i2_109
+echo "Diego Uthurburu, 192.168.1.39  09:16hs" > fork.txt
+git add .
+git commit -m ""
+git push origin main
+#desde git se realiza el pull request para que BETA acepte los cambios 
+
+BETA
+git clone https://github.com/tOmAS1210/TP_SO_i2_109
+echo "" > NuevoDato.txt
+
+GAMMA 
+git pull https://github.com/tOmAS1210/TP_SO_i2_109
+#responde las pregutas A y B
+git add .
+git commit -m ""
+git push origin main
+#desde git se realiza el pull request para que BETA acepte los cambios
+
+BETA 
+git pull https://github.com/tOmAS1210/TP_SO_i2_109
+#responde las pregutas C y D
+git add .
+git commit -m ""
+git push origin main
+
+
+ALFA 
+git pull https://github.com/tOmAS1210/TP_SO_i2_109
+#responde la pregunta E
+git add .
+git commit -m ""
+git push origin main 
+#desde git se realiza el pull request para que BETA acepte los cambios
